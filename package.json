@@ -8,15 +8,16 @@
   ],
   "license": "ISC",
   "author": "Shivam Pandey",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "it": "^1.1.1"
   },
   "devDependencies": {
-    "coffee-script": "^1.3.3"
+    "coffee-script": "^1.3.3",
+    "nodemon": "^3.1.14"
   }
 }
